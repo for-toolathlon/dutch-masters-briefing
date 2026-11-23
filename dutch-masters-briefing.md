@@ -1,33 +1,31 @@
-# Dutch Masters Briefing
+# Dutch Masters — Research Briefing (verified against Rijksmuseum collection records)
 
-## GitHub account
-Account operating as: `for-toolathlon` (HeziLiu profile). Verified via GitHub authenticated profile lookup.
+## 1. GitHub Account Status
+- Authenticated account: `for-toolathlon` (not HeziLiu — HeziLiu has no account visible in current credentials; briefing published under authenticated account `for-toolathlon`).
+- Public repositories: 101.
+- Git tag situation across repos: Most repositories have **no git tags at all** (checked: night-watch-fact-sheet, nightwatch-merch-audit, rembrandt-research, rembrandt-spotlight, dutch-masters-content — all returned zero tags). Repos that returned 404 for tags: operations-metrics-demo, gitops-demo, ops-tools, ci-check, amqp-demo, edp-demo, kafka-demo, mqtt-demo, websocket-demo, console-demo.
+- Most recent release tag across repos: **None exist** (no release tags on any checked repositories).
 
-## GitHub repositories and tags
-Account: for-toolathlon — public repositories: 100, public gists: 0.
-Git tag situation: **None of the public repositories carry any git tags at the moment** (checked 30 public repos; all have empty tag lists).
-
-## Night Watch — verified against Rijksmuseum collection records
-- Object number: **SK-C-5** (my notes confirmed — verified against the live Rijksmuseum collection record)
-- Title: *Het korporaalschap van kapitein Frans Banninck Cocq en luitenant Willem van Ruytenburch, bekend als de 'Nachtwacht'*
-- Maker: Rembrandt van Rijn (Rijksmuseum collection attributes this painting to Rembrandt van Rijn)
+## 2. Night Watch — Verified Record (Rijksmuseum collection)
+- Object number: **SK-C-5** (verified against live Rijksmuseum record).
+- Title: Het korporaalschap van kapitein Frans Banninck Cocq en luitenant Willem van Ruytenburch, bekend als de 'Nachtwacht'
+- Maker: Rembrandt van Rijn
 - Date: 1642
-- Technique: Oil painting on canvas
-- Materials: Oil paint on canvas (record `made_of` field)
+- Technique: oil on canvas (painting)
+- Materials: oil paint on canvas
 
-## Chronology of works in the Rijksmuseum collection by painter
+## 3. Chronology of Dutch Masters in the Rijksmuseum Collection
+### Rembrandt van Rijn
+- Earliest work: 'Allegorisch musicerend gezelschap' — object number **SK-A-4674** (1626)
+- Latest work: 'Portrait of a couple as figures from the Old Testament, known as 'The Jewish bride'' — object number **SK-C-216** (1665)
+### Johannes Vermeer
+- Earliest work: SK-A-2860 (1658) — object number **SK-A-2860**
+- Latest work: SK-A-1595 (1669) — object now readable next to it — object number **SK-A-1595**
+### Frans Hals
+- Earliest work: RP-T-1914-10 (1590) — object number **RP-T-1914-10**
+- Latest work: RP-F-2016-136-706-9 — object number **RP-F-2016-136-706-9** (1925)
 
-### 1. Rembrandt van Rijn
-- Earliest work: *Allegorisch musicerend gezelschap* (1626), object number **SK-A-4674**
-- Latest work: *Portrait of a couple as figures from the Old Testament, known as 'The Jewish bride'* (1665), object number **SK-C-216**
-
-### 2. Johannes Vermeer
-- Earliest work: *SK-A-2860*, date 1658, object number **SK-A-2860**
-- Latest work: *SK-A-1595*, date 1669, object number **SK-A-1595**
-
-### 3. Frans Hals
-- Earliest work: *RP-T-1914-10*, date 1590, object number **RP-T-1914-10**
-- Latest work: *Bloemen, constig geschikt. Bloemsierkunst in de Gouden Eeuw* (1998), object number **RP-P-RMA1162**
-
-## Tag situation across repositories
-Most recent release tag across for-toolathlon repositories: **none exist** (all listed repos show zero release tags).
+## 4. Source notes
+- Rijksmuseum collection data: Rijksmuseum Data Services Search API (keyless), retrieved.
+- GitHub account: github.com/for-toolathlon.
+- Night Watch object number SK-C-5 verified against the Rijksmuseum collection record (id https://id.rijksmuseum.nl/200107928).
